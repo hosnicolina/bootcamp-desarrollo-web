@@ -1,0 +1,20 @@
+.dado{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.punto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dado-uno .punto{
+    position: absolute;
+    top: 85px;
+    right: 85px;
+}
