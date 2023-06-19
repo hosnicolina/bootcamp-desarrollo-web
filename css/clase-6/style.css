@@ -1,0 +1,12 @@
+.box{
+    width: 600px;
+    height: 400px;
+}
+
+.bg-img{
+    background-image: url('./start.png'),url(./img.jpg);
+}
+
+.bg-lineal{
+    background-image: linear-gradient(to bottom, #ff0000, #0000ff);
+}
