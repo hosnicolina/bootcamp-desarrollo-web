@@ -4,6 +4,10 @@
   background-color: aliceblue;
 }
 
+.border-black{
+    border: 1px solid black;
+}
+
 .bandera-venezuela {
   background: yellow;
   background: linear-gradient(
