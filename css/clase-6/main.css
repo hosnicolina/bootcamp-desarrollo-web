@@ -1,0 +1,18 @@
+.flag {
+  width: 640px;
+  height: 360px;
+  background-color: aliceblue;
+}
+
+.bandera-venezuela {
+  background: yellow;
+  background: linear-gradient(
+    180deg,
+    yellow 0%,
+    yellow 28%,
+    blue 28%,
+    blue 66%,
+    red 66%,
+    red 100%
+  );
+}
