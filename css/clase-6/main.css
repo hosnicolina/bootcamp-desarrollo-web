@@ -4,8 +4,8 @@
   background-color: aliceblue;
 }
 
-.border-black{
-    border: 1px solid black;
+.border-black {
+  border: 1px solid black;
 }
 
 .bandera-venezuela {
@@ -19,4 +19,7 @@
     red 66%,
     red 100%
   );
+}
+
+.cameru {
 }
