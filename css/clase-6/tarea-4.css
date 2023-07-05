@@ -1,0 +1,13 @@
+.dado {
+  width: 172px;
+  height: 172px;
+  border: 2px solid black;
+  margin: 30px auto;
+}
+
+.dado-uno {
+  background-image: url(./img/dot.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px;
+}
