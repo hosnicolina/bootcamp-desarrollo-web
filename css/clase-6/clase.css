@@ -8,31 +8,57 @@ url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAjVBMV
   padding: 60px;
 }
 
-
 /* 
 * background-color: La propiedad background-color establece el color de fondo de un elemento.
 */
-
+.box {
+  background-color: rgba(0, 0, 255, 0.5);
+}
 /* 
 * background-image: La propiedad background-image establece una o más imágenes de fondo para un elemento.
 */
-
+.bg-imagen {
+  background-color: rgba(0, 0, 255, 0.5);
+  background-image: url(./img/start-amarrillo.png), url(./img.jpg);
+}
 /* 
 * linear-gradient: Para crear un degradado lineal debe definir al menos dos puntos de color.
 */
-
-/* 
-* linear-gradient: Para crear un degradado lineal debe definir al menos dos puntos de color.
-*/
+.bg-degradado {
+  background-color: rgba(0, 0, 255, 0.5);
+  background-image:radial-gradient(circle, green 20%, transparent 20% 100%), linear-gradient(
+    180deg,
+    yellow 33%,
+    blue 33% 66%,
+    transparent 66% 100%
+  ), url(./img.jpg);
+  /* background-image: radial-gradient(circle, green 20%, transparent 20% 100%); */
+}
 
 /* 
 * La propiedad background-repeat establece si una imagen de fondo se repetirá y cómo.
 */
 
+.bg-repeat{
+    background-image: url(./img.jpg);
+    background-repeat: repeat; /* repeat no-repeat repeat-x repeat-y */
+}
+
 /* 
 * La propiedad background-position establece la posición inicial de una imagen de fondo.
 */
-
+.bg-position{
+    background-image: url('data:image/png;base64,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');
+    background-repeat: no-repeat;
+    background-position: 80% 3rem; /* x y */
+}
 /* 
 * La propiedad background-size en CSS se utiliza para establecer el tamaño de la imagen de fondo de un elemento. 
 */
+
+.bg-size{
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* unidades de medida de css, px, rem, em, % cover, contain */
+    background-position: center;
+}
